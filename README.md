@@ -67,12 +67,15 @@ Run the following SQL command to set up the required table:
 ## API Endpoints
 
 Base URL:  http://localhost:3000
-Method	    Endpoint	             Description
-GET	        /api/items	           Get all items
-GET	        /api/items/{id}	       Get item by ID
-POST	      /api/items	           Add a new item
-PUT	        /api/items/{id}	       Update item by ID
-DELETE	    /api/items/{id}        Delete item by ID
+
+| Method | Endpoint           | Description         |
+|--------|-----------------   |---------------------|
+| GET    | `/api/items`       | Get all items       |
+| GET    | `/api/items/{id}`  | Get item by ID      |
+| POST   | `/api/items`       | Add a new item      |
+| PUT    | `/api/items/{id}`  | Update item by ID   |
+| DELETE | `/api/items/{id}`  | Delete item by ID   |
+
 
 ## Example Payload for /api/items:
   ```
