@@ -60,7 +60,7 @@ Run the following SQL command to set up the required table:
 ## Usage
 1.Start the application:
    ```bash
-   Start the application:
+   go run main.go
    ```
 2.The server will start at http://localhost:3000.
 
